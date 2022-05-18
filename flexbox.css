@@ -1,0 +1,39 @@
+.container{
+    background-color:lightblue;
+    display: flex;
+}
+
+.container div.div1{
+    background-color:lightblue;
+    width: 33%;
+}
+
+.container div.div2{
+    background-color:aquamarine;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    
+    
+}
+.container div.div2 ul{
+    display: flex;
+    list-style-type: none;
+    gap:2rem;
+   
+}
+
+.container div.div2 ul li{
+    width: 33%;
+    
+}
+
+
+
+}
+
+.container div.div3{
+    background-color:blueviolet;
+    width: 33%;
+}
